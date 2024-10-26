@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AZoom Car Rental</title>
+    <link rel="stylesheet" href="./resources/css/styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="title">
+        <a href="index.html">AZoom Car Rental</a>
+      </div>
+      <nav class="nav-bar">
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li><a href="rentals.html">Rentals</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="review.html">Review</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </nav>
+      <div id="account">
+        <ul>
+          <li>
+            <a href="login.html" id="login"
+              ><img
+                src="./resources/img/login_light.png"
+                alt=""
+                id="login_icon"
+              />Login</a
+            >
+          </li>
+          <li>
+            <a href="register.html" id="register"
+              ><img
+                src="./resources/img/register_dark.png"
+                alt=""
+                id="register_icon"
+              />Register</a
+            >
+          </li>
+          <li>
+            <a href="profile.html" id="profile"
+              ><img
+                src="./resources/img/user.png"
+                alt=""
+                id="register_icon"
+              />Profile</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- Support Button -->
+    <button type="submit" class="support-button" onclick="support()"><img src="./resources/img/live-chat.png" alt=""></button>
+    <!-- Main -->
+    <main>
+      <div class="home-banner-container">
+        <section class="home-banner">
+          <div class="banner-text">
+            <h5>Affordable, Reliable, Convenient</h5>
+            <h1>"Rent Your Perfect Car Today"</h1>
+            <hr id="white-line" />
+            <p>
+              Choose from a wide range of vehicles that suit your needs, whether
+              it’s a quick trip around town or a cross-country adventure. Our
+              cars are well-maintained, budget-friendly, and ready for you to
+              hit the road with ease and comfort.
+            </p>
+            <a href="rentals.html" class="button">Browse Our Cars</a>
+          </div>
+        </section>
+      </div>
+
+      <div class="popular-cars-container">
+        <h2 class="popular-cars-title">Popular Cars</h2>
+        <hr class="black-line1" />
+        <div class="popular-cars">
+          <div class="car1">
+            <img src="./images/BMW_640D.jpg" alt="bmw" />
+            <h4>BMW 640D</h4>
+            <hr />
+            <div class="spec">
+              <p class="detail-text1">
+                <img src="./resources/img/user.png" /> 4
+              </p>
+              <p class="detail-text1">
+                <img src="./resources/img/air-con.png" /> A/C
+              </p>
+              <p class="detail-text1">
+                <img src="./resources/img/engine.png" /> auto
+              </p>
+              <p class="price-text">$ 100 <span>/day</span></p>
+            </div>
+
+            <a href="details.html?id=3">Rent Now</a>
+          </div>
+          <div class="car1">
+            <img src="./images/BMW_640D.jpg" alt="bmw" />
+            <h4>BMW 640D</h4>
+            <hr />
+            <div class="spec">
+              <p class="detail-text1">
+                <img src="./resources/img/user.png" /> 4
+              </p>
+              <p class="detail-text1">
+                <img src="./resources/img/air-con.png" /> A/C
+              </p>
+              <p class="detail-text1">
+                <img src="./resources/img/engine.png" /> auto
+              </p>
+            <p class="price-text">$ 100 <span>/day</span></p>
+            </div>
+            <a href="details.html?id=3">Rent Now</a>
+          </div>
+          <div class="car1">
+            <img src="./images/BMW_640D.jpg" alt="bmw" />
+            <h4>BMW 640D</h4>
+            <hr />
+            <div class="spec">
+              <p class="detail-text1">
+                <img src="./resources/img/user.png" /> 4
+              </p>
+              <p class="detail-text1">
+                <img src="./resources/img/air-con.png" /> A/C
+              </p>
+              <p class="detail-text1">
+                <img src="./resources/img/engine.png" /> auto
+              </p>
+              <p class="price-text">$ 100 <span>/day</span></p>
+            </div>
+
+            <a href="details.html?id=3">Rent Now</a>
+          </div>
+      </div>
+      <section class="why-choose-us">
+        <h2>Why Choose Us</h2>
+        <p>
+          <span class="black-line2"></span>We provide You Best Service In Your
+          Life
+        </p>
+        <div class="features">
+          <div class="feature">
+            <h3>Reliability</h3>
+            <p>
+              We offer dependable and high-quality vehicles that are regularly
+              maintained, ensuring a smooth and worry-free driving experience.
+            </p>
+          </div>
+          <div class="feature">
+            <h3>Affordability</h3>
+            <p>
+              Our pricing is designed to fit any budget, with competitive rates
+              and no hidden fees, so you get the best value for your money.
+            </p>
+          </div>
+          <div class="feature">
+            <h3>Wide Selection</h3>
+            <p>
+              From compact cars to SUVs, we have a diverse range of vehicles to
+              match your needs, whether it’s a quick city trip or a road trip.
+            </p>
+          </div>
+          <div class="feature">
+            <h3>Customer Support</h3>
+            <p>
+              Our friendly team is available 24/7 to assist you, answer any
+              questions, and ensure you have a seamless rental experience.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="promotions" id="promotions">
+        <h2>Current Promotions & Special Deals</h2>
+        <div class="deals">
+          <div class="deal">
+            <img src="./images/promo1.jpg" alt="toyota" />
+            <h3>Weekend Special</h3>
+            <p>
+              Book a car for the weekend and save 20%! Perfect for a quick.
+              Available Fridays through Sundays.
+            </p>
+            <a href="#" class="button">Book Now</a>
+          </div>
+          <div class="deal">
+            <img src="./images/promo1.jpg" alt="toyota" />
+            <h3>New Member discount</h3>
+            <p>
+              Sign Up and Get a new member discount. Only for frist time rental.
+            </p>
+            <a href="#" class="button">Reserve Your Ride</a>
+          </div>
+          <div class="deal">
+            <img src="./images/promo1.jpg" alt="toyota" />
+            <h3>Loyalty Rewards</h3>
+            <p>
+              Returning customers get 10% off their next rental. We appreciate
+              your loyalty and look forward to serving you again!
+            </p>
+            <a href="#" class="button">Learn More</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+      <div class="footer-row">
+        <div class="footer-col">
+          <h4>Info</h4>
+          <ul class="links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="rentals.html">Cars</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="review.html">Review</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <ul class="contact-info">
+            <li>Phone Number: +65-123456</li>
+            <li>Email: azoom@gmail.com</li>
+            <li>Location: RedHill Road</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Newsletter</h4>
+          <p>
+            Subscribe to our newsletter for a weekly dose of news, updates,
+            helpful tips, and exclusive offers.
+          </p>
+          <form id="subscribe-form">
+            <input type="text" name="subscribeEmail" placeholder="Your email" required />
+            <button type="submit">SUBSCRIBE</button>
+          </form>
+          <div class="icons">
+            <img src="./resources/img/instagram.png" alt="" />
+            <img src="./resources/img/telegram.png" alt="" />
+            <img src="./resources/img/whatsapp.png" alt="" />
+            <img src="./resources/img/search.png" alt="" />
+          </div>
+        </div>
+        <p>Copyright 2024 &copy; AZoom Car Rantal</p>
+      </div>
+    </footer>
+    <!-- End Of Footer -->
+
+    <script src="./resources/js/app.js"></script>
+  </body>
+</html>

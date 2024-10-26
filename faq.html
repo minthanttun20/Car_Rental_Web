@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Support - AZoom Car Rental</title>
+    <link rel="stylesheet" href="./resources/css/styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="title">
+        <a href="index.html">AZoom Car Rental</a>
+      </div>
+      <nav class="nav-bar">
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li><a href="rentals.html">Rentals</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="review.html">Review</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </nav>
+      <div id="account">
+        <ul>
+          <li>
+            <a href="login.html" id="login"
+              ><img
+                src="./resources/img/login_light.png"
+                alt=""
+                id="login_icon"
+              />Login</a
+            >
+          </li>
+          <li>
+            <a href="register.html" id="register"
+              ><img
+                src="./resources/img/register_dark.png"
+                alt=""
+                id="register_icon"
+              />Register</a
+            >
+          </li>
+          <li>
+            <a href="profile.html" id="profile"
+              ><img
+                src="./resources/img/user.png"
+                alt=""
+                id="register_icon"
+              />Profile</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <div class="faq-container">
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            What are the requirements to rent a car?
+          </button>
+          <div class="faq-answer">
+            <p>
+              To rent a car, you must be at least 21 years old, have a valid
+              driver's license, and provide a credit card for the security
+              deposit. Some restrictions apply for drivers under 25.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Can I rent a car with a debit card?
+          </button>
+          <div class="faq-answer">
+            <p>
+              Yes, you can use a debit card for payment. However, a credit card
+              is usually required for the security deposit. Please check our
+              specific requirements for more details.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            What should I do if I have an accident?
+          </button>
+          <div class="faq-answer">
+            <p>
+              If you're involved in an accident, please contact the local
+              authorities and inform our customer service team immediately.
+              We'll assist you through the process.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Are there additional fees for young drivers?
+          </button>
+          <div class="faq-answer">
+            <p>
+              Yes, there may be an additional fee for drivers under 25 years
+              old. This fee covers higher insurance costs associated with
+              younger drivers.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">Can I add an additional driver?</button>
+          <div class="faq-answer">
+            <p>
+              Yes, you can add an additional driver for a small daily fee. The
+              additional driver must meet the same rental requirements and
+              provide a valid driver’s license.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">What is the fuel policy?</button>
+          <div class="faq-answer">
+            <p>
+              We offer a full-to-full fuel policy. This means you should return
+              the car with a full tank. If the car is returned with less fuel, a
+              refueling fee will be charged.
+            </p>
+          </div>
+        </div>
+        <a href="index.html" class="back-home"
+          >Back To Home <img src="./resources/img/right-arrow.png" alt=""
+        /></a>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-row">
+        <div class="footer-col">
+          <h4>Info</h4>
+          <ul class="links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="rentals.html">Cars</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="review.html">Review</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <ul class="contact-info">
+            <li>Phone Number: +65-123456</li>
+            <li>Email: azoom@gmail.com</li>
+            <li>Location: RedHill Road</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Newsletter</h4>
+          <p>
+            Subscribe to our newsletter for a weekly dose of news, updates,
+            helpful tips, and exclusive offers.
+          </p>
+          <form id="subscribe-form">
+            <input
+              type="text"
+              name="subscribeEmail"
+              placeholder="Your email"
+              required
+            />
+            <button type="submit">SUBSCRIBE</button>
+          </form>
+          <div class="icons">
+            <img src="./resources/img/instagram.png" alt="" />
+            <img src="./resources/img/telegram.png" alt="" />
+            <img src="./resources/img/whatsapp.png" alt="" />
+            <img src="./resources/img/search.png" alt="" />
+          </div>
+        </div>
+        <p>Copyright 2024 &copy; AZoom Car Rantal</p>
+      </div>
+    </footer>
+
+    <script src="./resources/js/app.js"></script>
+    <script>
+      document.querySelectorAll(".faq-question").forEach((button) => {
+        button.addEventListener("click", () => {
+          const answer = button.nextElementSibling;
+          button.classList.toggle("active");
+          answer.style.maxHeight = answer.style.maxHeight
+            ? null
+            : answer.scrollHeight + "px";
+        });
+      });
+    </script>
+  </body>
+</html>

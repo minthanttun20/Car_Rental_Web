@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rentals - AZoom Car Rental</title>
+    <link rel="stylesheet" href="./resources/css/styles.css" />
+  </head>
+  <body class="payment-page">
+    <!-- Header -->
+    <header>
+      <div class="title">
+        <img src="./resources/img/logo.png" alt="logo" id="logo" />
+        <a href="index.html">AZoom Car Rental</a>
+      </div>
+      <nav class="nav-bar">
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li><a href="rentals.html">Rentals</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="review.html">Review</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </nav>
+      <div id="account">
+        <ul>
+          <li>
+            <a href="login.html" id="login"
+              ><img
+                src="./resources/img/login_light.png"
+                alt=""
+                id="login_icon"
+              />Login</a
+            >
+          </li>
+          <li>
+            <a href="register.html" id="register"
+              ><img
+                src="./resources/img/register_dark.png"
+                alt=""
+                id="register_icon"
+              />Register</a
+            >
+          </li>
+          <li>
+            <a href="profile.html" id="profile"
+              ><img
+                src="./resources/img/user.png"
+                alt=""
+                id="register_icon"
+              />Profile</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <h1 class="payment-title">Payment</h1>
+      <hr class="black-line" />
+      <div class="billing-details-container">
+        <div class="billing-details">
+          <h4>BILLING ADDRESS</h4>
+          <form class="billing-forms">
+            <div id="billing" class="billing">
+              <label for="name">Full Name <span>*</span></label>
+              <input
+                type="text"
+                placeholder="Enter Your Full Name..."
+                id="full-name"
+                required
+              />
+
+              <label for="email">Email <span>*</span></label>
+              <input
+                type="email"
+                placeholder="Enter your Email Address..."
+                id="email"
+                required
+              />
+
+              <label for="block-num">Address <span>*</span></label>
+              <input
+                type="text"
+                placeholder="Enter Block Number..."
+                id="address"
+                required
+              />
+
+              <label for="postal-code">Postal Code <span>*</span></label>
+              <input
+                type="text"
+                placeholder="Enter Postal Code..."
+                id="postal-code"
+                required
+              />
+            </div>
+            <div class="payment-container">
+              <h4 class="payment-methods-title">PAYMENT</h4>
+              <div class="payment">
+                <div class="cards">
+                  <p>Cards Accepted:</p>
+                  <img src="./resources/img/visa.png" alt="visa" />
+                  <img
+                    src="./resources/img/master-card.png"
+                    alt="master-card"
+                  />
+                  <img src="./resources/img/unionpay.png" alt="union-pay" />
+                  <img
+                    src="./resources/img/american-express.png"
+                    alt="american-express"
+                  />
+                </div>
+                <label for="name">Name On Card <span>*</span></label>
+                <input
+                  type="text"
+                  placeholder="Enter Card Name"
+                  id="card-name"
+                  required
+                />
+
+                <label for="name">Card Number <span>*</span></label>
+                <input
+                  type="text"
+                  placeholder="Enter Card Name"
+                  id="card-name"
+                  required
+                />
+
+                <label for="name">Card Number <span>*</span></label>
+                <input
+                  type="text"
+                  placeholder="Enter Card Number"
+                  id="card-num"
+                  required
+                />
+
+                <div class="cvv-container">
+                  <div>
+                    <label for="name">Exp Month/Year <span>*</span></label>
+                    <input
+                      type="text"
+                      placeholder="Enter Exp Month/Year"
+                      id="card-name"
+                      required
+                    />
+                  </div>
+
+                  <div>
+                    <label for="name">CVV <span>*</span></label>
+                    <input
+                      type="text"
+                      placeholder="Enter CVV"
+                      id="cvv"
+                      required
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p id="warn">
+              If you choose to pay at our office, you must complete the payment
+              within 3 days of making your booking.
+            </p>
+            <!-- Buttons -->
+            <button
+              type="button"
+              class="cancel-payment-btn"
+              id="office-payment-btn"
+            >
+              Pay at Rental Office
+            </button>
+            <button type="submit" class="make-payment" id="make-payment-btn">
+              Proceed To Payment
+            </button>
+          </form>
+        </div>
+
+        <!-- Booking Details that the customer order -->
+        <div class="order-details">
+          <h3>Booking Details</h3>
+          <br />
+          <hr />
+          <br />
+          <div id="order-info"></div>
+          <div id="subtotal">
+            <h3>Total Price</h3>
+            <div id="total-price"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-row">
+        <div class="footer-col">
+          <h4>Info</h4>
+          <ul class="links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="rentals.html">Cars</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="review.html">Review</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <ul class="contact-info">
+            <li>Phone Number: +65-123456</li>
+            <li>Email: azoom@gmail.com</li>
+            <li>Location: RedHill Road</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Newsletter</h4>
+          <p>
+            Subscribe to our newsletter for a weekly dose of news, updates,
+            helpful tips, and exclusive offers.
+          </p>
+          <form id="subscribe-form">
+            <input
+              type="text"
+              name="subscribeEmail"
+              placeholder="Your email"
+              required
+            />
+            <button type="submit">SUBSCRIBE</button>
+          </form>
+          <div class="icons">
+            <img src="./resources/img/instagram.png" alt="" />
+            <img src="./resources/img/telegram.png" alt="" />
+            <img src="./resources/img/whatsapp.png" alt="" />
+            <img src="./resources/img/search.png" alt="" />
+          </div>
+        </div>
+        <p>Copyright 2024 &copy; AZoom Car Rantal</p>
+      </div>
+    </footer>
+
+    <script src="./resources/js/app.js"></script>
+  </body>
+</html>

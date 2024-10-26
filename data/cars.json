@@ -1,0 +1,112 @@
+[
+    { 
+        "id": 1, 
+        "name": "BMW M5(528i) F10", 
+        "type": "luxury",
+        "price": 800, 
+        "capacity": 4,
+        "location": "27 West Coast Highway", 
+        "model": 2023,
+        "engine": "auto",
+        "doors": "4",
+        "desc": "This BMW sedan is an ideal rental choice for those who crave a blend of luxury, power, and style. Perfect for business professionals who want to make a lasting impression, or for car enthusiasts looking to enjoy a smooth, high-performance drive, this BMW sedan delivers on all fronts. It’s also a great fit for travelers who need a reliable, comfortable ride for a weekend getaway or a special occasion. With spacious seating, advanced technology, and a design that turns heads, this BMW is suited for anyone looking to elevate their driving experience.",
+        "img": "../images/bmw-m5.jpg"
+    },
+    { 
+        "id": 2,
+        "name": "BMW 640D", 
+        "type": "luxury",
+        "price": 500, 
+        "capacity": 4, 
+        "location": "34 Boon Leat Terrace", 
+        "engine": "auto",
+        "doors": "4",
+        "model": 2018,
+        "desc": "The BMW 640d is a luxurious and powerful grand tourer that perfectly blends style, performance, and efficiency. Part of BMW's 6 Series, the 640d is known for its sporty design, premium interior, and advanced technology features. This model is powered by a smooth and fuel-efficient diesel engine, delivering strong acceleration and impressive torque, making it ideal for both high-speed cruising and city driving. With BMW's signature attention to driving dynamics, the 640d offers a comfortable yet exhilarating driving experience.",
+        "img": "../images/BMW_640D.jpg" 
+    },
+    { 
+        "id": 3, 
+        "name": "Toyota Camry", 
+        "price": 600, 
+        "capacity": 5, 
+        "location": "27 West Coast Highway",
+        "model": 2004,
+        "engine": "manual",
+        "doors": "4",
+        "desc": "The Toyota Camry is a fantastic rental choice for those seeking reliability, comfort, and efficiency. Ideal for business travelers, families, or solo adventurers, this sedan offers a smooth, quiet ride and a spacious interior perfect for longer trips or daily commutes. With advanced safety features and impressive fuel efficiency, the Camry is suited for anyone who values peace of mind and affordability on the road. Whether you're exploring the city or embarking on a road trip, the Toyota Camry provides a dependable and comfortable driving experience.",
+        "img": "../images/ToyotaCamry.jpg" 
+    },
+    {
+        "id": 4, 
+        "name": "Lamborghini Aventador", 
+        "price": 2500, 
+        "capacity": 5, 
+        "model": 2004,
+        "location": "27 West Coast Highway",
+        "engine": "auto",
+        "doors": "5",
+        "desc": "The Lamborghini Aventador is the epitome of luxury and performance, available for those who seek an extraordinary driving experience. With its powerful V12 engine and advanced aerodynamics, this supercar offers an unmatched blend of speed, agility, and style. Perfect for special events, high-profile business meetings, or simply indulging in the thrill of driving a world-class vehicle, the Aventador ensures you’ll stand out wherever you go. Rent the Lamborghini Aventador for an unforgettable ride that combines cutting-edge technology with the bold, unmistakable style of Italian craftsmanship.",
+        "img": "../images/lamborghini aventador.jpg" 
+    },
+    {
+        "id": 5, 
+        "name": "Audi Rs 6", 
+        "price": 900, 
+        "capacity": 5, 
+        "model": 2022,
+        "location": "34 Boon Leat Terrace",
+        "engine": "auto",
+        "doors": "4",
+        "desc": "The 2022 Audi RS 6 Avant is a high-performance luxury wagon that combines practicality with thrilling power, thanks to its 4.0-liter twin-turbo V8 engine producing 591 horsepower. This sporty yet versatile vehicle goes from 0 to 60 mph in just 3.5 seconds and features Audi's Quattro all-wheel-drive system for exceptional handling. Its bold exterior design includes a honeycomb grille, large air intakes, and a rear diffuser, while the interior boasts premium materials, advanced tech, and generous cargo space, making it ideal for both spirited drives and family journeys.",
+        "img": "../images/2022-audi-rs6.webp" 
+    },
+    {
+        "id": 6, 
+        "name": "Alfa Romeo C4", 
+        "price": 800, 
+        "capacity": 2, 
+        "model": 2022,
+        "location": "27 West Coast Highway",
+        "engine": "auto",
+        "doors": "2",
+        "desc": "The Alfa Romeo 4C is a compact, lightweight sports car that showcases Alfa Romeo's commitment to performance and Italian styling. Powered by a turbocharged 1.75-liter inline-four engine, it delivers 237 horsepower and can go from 0 to 60 mph in just 4.1 seconds. The 4C’s carbon fiber monocoque chassis keeps it incredibly light, enhancing agility and responsiveness on the road. Its design is sleek and aerodynamic, with a low stance, sculpted body lines, and signature Alfa Romeo styling elements like the triangular front grille. Inside, the 4C features a minimalist, driver-focused cabin with sporty seating and essential controls, emphasizing a pure, connected driving experience.",
+        "img": "../images/Alfa-Romeo -C4.jpg" 
+    },
+    {
+        "id": 7, 
+        "name": "Land Rover Rnage Rover SUV", 
+        "price": 1000, 
+        "capacity": 6, 
+        "model": 2023,
+        "location": "34 Boon Leat Terrace",
+        "engine": "auto",
+        "doors": "4",
+        "desc": "The Land Rover Range Rover SUV is a luxurious and versatile vehicle that blends refined elegance with rugged off-road capabilities. Equipped with powerful engine options, including turbocharged V6 and V8 engines, it offers impressive performance both on and off the road. The Range Rover features Land Rover's advanced Terrain Response system, allowing it to tackle a variety of challenging terrains with ease. Its sophisticated exterior design is complemented by a spacious, high-end interior with premium materials, advanced technology, and generous cargo space. With features like a digital instrument cluster, infotainment system, and cutting-edge driver assistance, the Range Rover provides a smooth, comfortable ride, making it ideal for both city driving and adventure-filled getaways.",
+        "img": "../images/landrover.jpg" 
+    },
+    {
+        "id": 8, 
+        "name": "Lamborghini Urus", 
+        "price": 1000, 
+        "capacity": 6, 
+        "model": 2023,
+        "location": "34 Boon Leat Terrace",
+        "engine": "auto",
+        "doors": "4",
+        "desc": "The Lamborghini Urus is a luxury SUV that combines the heart of a sports car with the versatility of an SUV, making it ideal for those who crave both power and practicality. Perfect for high-end family trips, business professionals, and adventurous groups, the Urus seats up to five passengers comfortably while delivering exhilarating performance with its powerful V8 engine. With its bold design, advanced technology, and spacious interior, the Urus is suited for anyone looking to make a statement on both city streets and rugged terrain. Rent the Lamborghini Urus to enjoy the thrill of a supercar with the comfort and utility of an SUV.",
+        "img": "../images/Lamborghini Urus.jpg" 
+    },
+    {
+        "id": 9, 
+        "name": "Ford Falcon", 
+        "price": 1200, 
+        "capacity": 6, 
+        "model": 1964,
+        "location": "27 West Coast Highway",
+        "engine": "manual",
+        "doors": "2",
+        "desc": "The 1964 Ford Falcon is a classic American icon, perfect for vintage car enthusiasts and those looking to experience a piece of automotive history. With its timeless design, spacious interior, and smooth ride, the Falcon brings a nostalgic charm that’s ideal for weddings, special events, or leisurely weekend drives. This car is suited for anyone who appreciates classic style, understated elegance, and the thrill of driving a piece of the past. Rent the Ford Falcon to enjoy a true classic that stands out on the road and makes every journey memorable." ,
+        "img": "../images/1964 Ford Falcon.jpg" 
+    }
+]

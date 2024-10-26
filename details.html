@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Support - AZoom Car Rental</title>
+    <link rel="stylesheet" href="./resources/css/styles.css" />
+  </head>
+  <body class="details-page">
+    <!-- Header -->
+    <header>
+      <div class="title">
+        <a href="index.html">AZoom Car Rental</a>
+      </div>
+      <nav class="nav-bar">
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li><a href="rentals.html">Rentals</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="review.html">Review</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </nav>
+      <div id="account">
+        <ul>
+          <li>
+            <a href="login.html" id="login"
+              ><img
+                src="./resources/img/login_light.png"
+                alt=""
+                id="login_icon"
+              />Login</a
+            >
+          </li>
+          <li>
+            <a href="register.html" id="register"
+              ><img
+                src="./resources/img/register_dark.png"
+                alt=""
+                id="register_icon"
+              />Register</a
+            >
+          </li>
+          <li>
+            <a href="profile.html" id="profile"
+              ><img
+                src="./resources/img/user.png"
+                alt=""
+                id="register_icon"
+              />Profile</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- Main  -->
+    <main>
+      <div id="car-title"></div>
+      <div class="black-line"></div>
+      <div class="booking-container">
+        <div id="car-details">
+          <!-- Details of the car here!!! -->
+        </div>
+        <!-- Booking Form -->
+        <div class="booking-form">
+          <h2>Booking Form</h2>
+          <hr />
+          <form id="booking-form-input">
+            <div class="personal-info">
+              <div class="name">
+                <div>
+                  <label for="name">First Name<span>*</span></label>
+                  <input
+                    type="text"
+                    placeholder="Enter Last Name"
+                    id="first-name"
+                    name="firstName"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="name">Last Name<span>*</span></label>
+                  <input
+                    type="text"
+                    placeholder="Enter Last Name"
+                    id="last-name"
+                    name="lastName"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="info">
+                <label for="age">Age<span>*</span></label>
+                <input
+                  type="number"
+                  placeholder="Enter Age"
+                  id="age"
+                  min="1"
+                  name="age"
+                  required
+                />
+                <label for="driver-license"
+                  >Driver's License<span>*</span></label
+                >
+                <input
+                  type="text"
+                  placeholder="Enter License Number"
+                  id="driver-license"
+                  name="license"
+                  required
+                />
+              </div>
+            </div>
+            <div>
+              <div class="rental-type">
+                <h4 class="days">Number of Days<span>*</span></h4>
+                <div class="rental-day-input">
+                  <input
+                    type="number"
+                    id="day"
+                    name="day"
+                    min="1"
+                    placeholder="Enter number of days"
+                    required
+                  />
+                  <label for="day">Days</label><br />
+                </div>
+              </div>
+
+              <div class="choose-location">
+                <label for="cars">Choose Location<span>*</span></label>
+                <select name="locations" id="locations" required>
+                  <option value="" selected disabled>Select Location</option>
+                  <option value="34 Boon Leat Terrace">
+                    34 Boon Leat Terrace
+                  </option>
+                  <option value=""27 West Coast Highway">27 West Coast Highway</option></select
+                ><br />
+              </div>
+              <div class="pick-up-date-time">
+                <label for="pick-up">Pickup Date & time<span>*</span></label>
+                <div>
+                  <input type="date" id="pick-up" name="pickUp" required />
+                  <input
+                    type="time"
+                    id="pick-up-time"
+                    name="pickUpTime"
+                    required
+                  />
+                </div>
+              </div>
+              <br />
+              <button type="submit" class="booking-btn" id="booking-btn">
+                Booking
+              </button>
+              <button type="button" class="cancel-btn" id="cancel-btn">
+                Cancel Booking
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <footer>
+        <div class="footer-row">
+          <div class="footer-col">
+            <h4>Info</h4>
+            <ul class="links">
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="rentals.html">Cars</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+              <li><a href="review.html">Review</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contact Us</h4>
+            <ul class="contact-info">
+              <li>Phone Number: +65-123456</li>
+              <li>Email: azoom@gmail.com</li>
+              <li>Location: RedHill Road</li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Newsletter</h4>
+            <p>
+              Subscribe to our newsletter for a weekly dose of news, updates,
+              helpful tips, and exclusive offers.
+            </p>
+            <form id="subscribe-form">
+              <input
+                type="text"
+                name="subscribeEmail"
+                placeholder="Your email"
+                required
+              />
+              <button type="submit">SUBSCRIBE</button>
+            </form>
+            <div class="icons">
+              <img src="./resources/img/instagram.png" alt="" />
+              <img src="./resources/img/telegram.png" alt="" />
+              <img src="./resources/img/whatsapp.png" alt="" />
+              <img src="./resources/img/search.png" alt="" />
+            </div>
+          </div>
+          <p>Copyright 2024 &copy; AZoom Car Rantal</p>
+        </div>
+      </footer>
+    </main>
+    <!-- JavaScript -->
+    <script src="./resources/js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register - AZoom Car Rental</title>
+    <link rel="stylesheet" href="./resources/css/register.css" />
+  </head>
+  <body>
+    <header>
+      <img src="./resources/img/logo.png" alt="logo" id="logo" />
+      <a href="index.html">AZoom Car Rental</a>
+    </header>
+    <main>
+      <form class="form-container">
+        <h1>Register</h1>
+        <label for="username">Full Name</label>
+        <input
+          type="text"
+          id="full-name"
+          name="name"
+          placeholder="Enter your Name"
+          required
+        />
+
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        />
+
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter your password"
+          required
+        />
+
+        <label for="password1">Comfirm Password</label>
+        <input
+          type="password"
+          id="password1"
+          name="password1"
+          placeholder="Enter your password"
+          required
+        />
+        <button type="submit">Register</button>
+      </form>
+      <p style="text-align: center">
+        Already have an account?
+        <a href="login.html" class="login-acc">Log In</a>
+      </p>
+    </main>
+    <!-- JavaScript -->
+
+    <script>
+      const registerForm = document.querySelector(".form-container");
+      registerForm.addEventListener("submit", (e) => {
+        e.preventDefault();
+
+        const name = registerForm.name.value;
+        const email = registerForm.email.value;
+        const password = registerForm.password.value;
+        const password1 = registerForm.password1.value;
+
+        if (password.length < 6) {
+          alert("Password is too short.");
+          return;
+        } else {
+          if (password == password1) {
+            localStorage.setItem("name", name);
+            localStorage.setItem("email", email);
+            localStorage.setItem("password", password);
+            alert("Successfully Registered.");
+            window.location.href = "login.html";
+          } else {
+            alert("Passwords are not match.");
+            return;
+          }
+        }
+      });
+    </script>
+  </body>
+</html>
